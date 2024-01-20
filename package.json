@@ -1,0 +1,23 @@
+{
+  "name": "instagram-bot",
+  "version": "1.0.0",
+  "description": "IG-Bot-JS is a Node.js-based Instagram bot crafted for automation purposes. This bot operates on the instagram-private-api to interact with Instagram programmatically, with its development based on the node-ig-framework.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": ["instagram-private-api", "node-ig-framework", "Bot", "ig-bot-js", "Automation"],
+  "author": "favolia",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.5",
+    "chokidar": "^3.5.3",
+    "dotenv": "^16.3.1",
+    "node-ig-framework": "^1.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/favolia/ig-bot-js.git"
+  }
+}
+
