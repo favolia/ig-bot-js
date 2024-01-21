@@ -1,5 +1,6 @@
-# 🤖 IG-Bot-JS: Instagram Automation with Node.js
-IG-Bot-JS is a Node.js-based Instagram bot crafted for automation purposes. This bot operates on the instagram-private-api to interact with Instagram programmatically, with its development based on the node-ig-framework.
+# 🤖 ig-bot-js: Simple Instagram Bot for Node.js
+
+A lightweight Instagram bot template crafted for Node.js. This project serves as a simple starting point for building Instagram automation using `instagram-private-api` and `node-ig-framework.`
 
 ### 📋 Clone the repository: 
 ```bash
