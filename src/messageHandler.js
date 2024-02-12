@@ -34,7 +34,7 @@ const messageHandler = async ({ client, bot }) => {
     switch (command) {
         case "menu": case "help": {
             reply(`/ping\n/spotify`)
-        }
+        } break;
         case "p": case "ping": {
             reply("Pong!")
         } break;
@@ -57,7 +57,6 @@ const messageHandler = async ({ client, bot }) => {
                 .catch(err => reply("Terjadi kesalahann saat mengambil thumbnail lagu."))
             await reply(`${musicData?.metadata?.artists} - ${musicData?.metadata?.title}\n\nalbum: ${musicData?.metadata?.album}\nreleased: ${musicData?.metadata?.releaseDate}`)
             reply(musicData.link)
-
         } break;
 
         default:
